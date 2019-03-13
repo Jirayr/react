@@ -1,5 +1,3 @@
-import React from 'react';
-import Component from './HeaderComponent';
-import ReactDOM from "react-dom";
+import Header from './component';
 
-ReactDOM.render(<Component/>, document.getElementById('header'));
+export default Header;
